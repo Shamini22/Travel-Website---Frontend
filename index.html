@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Travel</title>
+  <!-- CSS Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- <script src="https://use.fontawesome.com/releases/v5.0/js/all.js"></script> -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- FontAwesome Link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- BootStrap Script Styles -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img src="images/triangles.png" alt="" class="nav-image">
+        <a class="navbar-brand" href="#">Travel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destination</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item icons">
+              <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item icons">
+              <i class="fas fa-align-right"></i>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="title_body">
+        <h2 class="title-heading">Let's Explore The Beauty Of The World</h2>
+        <p class="title-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris a diam maecenas sed enim ut sem viverra. Id leo in vitae turpis massa.</p>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
+      </div>
+      <div class="card title_card">
+        <div class="card-body">
+          <button type="button" class="btn btn-outline-dark card-button"><i class="fas fa-map-marker-alt "></i> Loaction</button>
+            <button type="button" class="btn btn-outline-dark card-button"><i class="fas fa-calendar-check "></i>  Check-In <i class="fas fa-caret-down card-right-icons"></i></button>
+              <button type="button" class="btn btn-outline-dark card-button"><i class="fas fa-calendar-check "></i>  Check-Out <i class="fas fa-caret-down card-right-icons"></i></button>
+              <button type="button" class="btn btn-dark card-button search-btn"> Search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services -->
+  <section id="services">
+    <div class="container-fluid">
+      <h2>What Service we provide You?</h2>
+      <div class="row">
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class="service_icon fas fa-user-circle fa-3x"></i>
+            <h3 class="card-heading">Travel guide</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-hotel fa-3x"></i>
+            <h3 class="card-heading">Hotel Booking</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-car fa-3x"></i>
+            <h3 class="card-heading">Vehicles Services</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-plane-departure fa-3x"></i>
+            <h3 class="card-heading">Flights Booking</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+      <div class="row">
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-tags fa-3x"></i>
+            <h3 class="card-heading">A lot of Discount</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-headset fa-3x"></i>
+            <h3 class="card-heading">Support 24/7</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-users fa-3x"></i>
+            <h3 class="card-heading">Management</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+        <div class="card service_card col-lg-3 col-md-4">
+          <div class="card-body services-cardbody">
+            <i class=" service_icon fas fa-handshake fa-3x"></i>
+            <h3 class="card-heading">Reliable Tour</h3>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard..</p>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- Review Section -->
+  <section id="review">
+    <div id="review-carousal" class="carousel slide" data-bs-ride="carousel" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid carousal_bg1">
+          <img class="review-img" src="images/woman.png" alt="woman-reviewer">
+          <em>Pebbles, New York</em>
+          <h2 class="section-heading"><i class="fas fa-quote-left fa-1x"></i>I had a very good experience with the services of them.</h2>
+        </div>
+        <div class="carousel-item container-fluid carousal_bg2">
+          <img class="review-img" src="images/boy.png" alt="man-reviewer">
+          <em>Beverly, Illinois</em>
+          <h2 class="section-heading"><i class="fas fa-quote-left fa-1x"></i> Pricing is nominal. Good service. Great places to visit.</h2>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#review-carousal" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#review-carousal" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="container-fluid">
+    <i class="social-icons fab fa-twitter"></i>
+    <i class="social-icons fab fa-facebook"></i>
+    <i class="social-icons fab fa-instagram"></i>
+    <i class="social-icons fas fa-envelope"></i>
+    <p>© Copyright 2021 Travel</p>
+
+  </footer>
+
+</body>
+
+</html>
